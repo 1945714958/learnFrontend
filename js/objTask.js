@@ -13,4 +13,5 @@ let userS = {
 	name: "John",
 };
 userS[id] = 123;
+console.log(userS);
 console.log(userS[id]);
