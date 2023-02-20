@@ -17,3 +17,4 @@ console.log(userS);
 console.log(userS[id]);
 // 从全局注册表中读取
 id = Symbol.for("id");
+console.log(id);
