@@ -17,3 +17,6 @@ let s = Symbol('aaaaa');
 console.log(typeof s);
 
 console.log(s);
+
+// 从全局注册表中读取
+let id = Symbol.for("id");
