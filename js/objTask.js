@@ -15,3 +15,5 @@ let userS = {
 userS[id] = 123;
 console.log(userS);
 console.log(userS[id]);
+// 从全局注册表中读取
+id = Symbol.for("id");
