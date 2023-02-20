@@ -12,6 +12,6 @@ let id = Symbol("id");
 let userS = {
 	name: "John",
 };
-userS[id] = 123;
+userS[id + '123'] = 123;
 console.log(userS);
 console.log(userS[id]);
