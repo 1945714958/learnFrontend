@@ -10,9 +10,7 @@ console.log(obj);
 let id = Symbol("id");
 
 let userS = {
-  name: "John",
-  [id]: 123 // 而不是 "id"：123
+	name: "John",
 };
-
-console.log();
+userS[id] = 123;
 console.log(userS[id]);
