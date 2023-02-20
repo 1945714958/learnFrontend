@@ -20,3 +20,8 @@ console.log(s);
 
 // 从全局注册表中读取
 let id = Symbol.for("id");
+// 再次读取（可能是在代码中的另一个位置）
+let idAgain = Symbol.for("id");
+
+// 相同的 symbol
+alert( id === idAgain ); // true
