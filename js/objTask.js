@@ -14,4 +14,4 @@ let userS = {
   [id]: 123 // 而不是 "id"：123
 };
 
-console.log(userS);
+console.log(userS.Symbol('id'));
