@@ -7,7 +7,7 @@ obj.name = 'Pete';
 delete obj.name;
 console.log(obj);
 
-let id = Symbol("id");
+let id = Symbol.for("id");
 
 let userS = {
 	name: "John",
