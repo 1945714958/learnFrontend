@@ -9,9 +9,9 @@ console.log(obj);
 
 let id = Symbol("id");
 
-let user = {
+let userS = {
   name: "John",
   [id]: 123 // 而不是 "id"：123
 };
 
-console.log(user);
+console.log(userS);
