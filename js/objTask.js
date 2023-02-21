@@ -19,3 +19,4 @@ console.log(userS[id]);
 id = Symbol.for("ids");
 console.log(id);
 console.log(Symbol.keyFor(id));
+
