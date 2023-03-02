@@ -20,3 +20,8 @@ id = Symbol.for("ids");
 console.log(id);
 console.log(Symbol.keyFor(id));
 
+obj = "0xF";
+let n = +obj;
+let m = -obj;
+console.log(n);
+console.log(m);
